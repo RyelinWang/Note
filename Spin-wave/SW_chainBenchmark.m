@@ -1,8 +1,8 @@
-%%%%% The benchmark 1D chain lattice for spin-wave method%%%%%
+%%%%% Two-sublattice spin-wave calculation for spin-1/2 Heisenberg chain %%%%%
+%%% Output: A figure, showing the E(k) in first magnetic BZ.
 
 %% Model parameter setup
-%Main_TriSU321_anysite;
-J=1.0;
+J=1.0; %Strength of exchange interaction, and positive characterize AFM type.
 
 %% Gell-mann matrix setup
 S=zeros(2,2,3);
